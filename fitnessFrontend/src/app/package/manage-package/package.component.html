@@ -1,0 +1,56 @@
+<div *ngIf="mode == 'CREATE' || mode == 'UPDATE'" class="container  mt-4">
+    <div class="row">
+      <h2 class="mb-4">Package:</h2>
+      <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form" *ngIf="!spinner">
+        <div class="form-check form-switch">
+          <input mdbCheckbox class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" formControlName="enabled"/>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Vendable</label>
+        </div>
+        
+        <mat-form-field class="form-element">
+          <mat-label>Libelle</mat-label>
+          <input matInput formControlName="libelle">
+        </mat-form-field>
+        <mat-form-field class="form-element">
+            <mat-label>Description</mat-label>
+            <input matInput formControlName="description">
+        </mat-form-field>
+        <mat-form-field class="form-element">
+          <mat-label>Validité</mat-label>
+          <input matInput type="number" formControlName="validity">
+      </mat-form-field>
+      <mat-form-field class="form-element">
+        <mat-label>Unité</mat-label>
+        <select matNativeControl formControlName="unitetime">
+          <option *ngFor="let unit of unites" [value]="unit" [selected]="unit === pack?.unitetime">{{unit}}</option>
+        </select>
+      </mat-form-field>
+
+      <p-multiSelect [options]="packageItemsList" formControlName="packageItemsList" class="ng-dirty ng-invalid" defaultLabel="Select one or more item" optionLabel="description">
+      </p-multiSelect>
+        <button mat-raised-button color="primary" type="submit" 
+          class="w-100 d-flex justify-content-center align-items-center mt-5" 
+          [disabled]="!formGroup.valid">Valider</button>
+      </form>
+      <div  *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+        <mat-spinner></mat-spinner>
+      </div>
+    </div>
+    </div>
+    <div *ngIf="mode == 'READ'" class="container  mt-4">
+      <div class="row">
+        <h2 class="mb-4">Package:</h2>
+          <mat-form-field class="form-element">
+            <mat-label>Libelle</mat-label>
+            <input [readonly]="true" matInput [value]="pack?.libelle">
+          </mat-form-field>
+          <mat-form-field class="form-element">
+            <mat-label>Description</mat-label>
+            <input [readonly]="true" matInput [value]="pack?.description">
+          </mat-form-field>
+        <div  *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+          <mat-spinner></mat-spinner>
+        </div>
+      </div>
+      </div>
+    

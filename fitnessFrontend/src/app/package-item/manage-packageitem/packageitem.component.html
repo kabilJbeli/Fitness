@@ -1,0 +1,55 @@
+<div *ngIf="mode == 'CREATE' || mode == 'UPDATE'" class="container  mt-4">
+    <div class="row">
+      <h2 class="mb-4">Package Item:</h2>
+      <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form" *ngIf="!spinner">
+        <div class="form-check form-switch">
+          <input mdbCheckbox class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" formControlName="needspecificsupportofnutro"/>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Nécessite le support d'un nutritionist</label>
+        </div>
+        <div class="form-check form-switch">
+          <input mdbCheckbox class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" formControlName="needspecificsupportofcoach"/>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Nécessité le support d'un coach</label>
+        </div>
+        <mat-form-field class="form-element">
+            <mat-label>Description</mat-label>
+            <input matInput formControlName="description">
+        </mat-form-field>
+        <mat-form-field class="form-element">
+          <mat-label>Prix</mat-label>
+          <input matInput type="number" formControlName="prix">
+      </mat-form-field>
+      <mat-form-field class="form-element">
+        <mat-label>Reduction</mat-label>
+        <input matInput type="number" formControlName="reduction">
+    </mat-form-field>
+
+        <button mat-raised-button color="primary" type="submit" 
+          class="w-100 d-flex justify-content-center align-items-center mt-5" 
+          [disabled]="!formGroup.valid">Valider</button>
+      </form>
+      <div  *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+        <mat-spinner></mat-spinner>
+      </div>
+    </div>
+    </div>
+    <div *ngIf="mode == 'READ'" class="container  mt-4">
+      <div class="row">
+        <h2 class="mb-4">Package Item:</h2>
+          <mat-form-field class="form-element">
+            <mat-label>Description</mat-label>
+            <input [readonly]="true" matInput [value]="packageItem?.description">
+          </mat-form-field>
+          <mat-form-field class="form-element">
+            <mat-label>Prix</mat-label>
+            <input [readonly]="true" matInput [value]="packageItem?.prix">
+          </mat-form-field>
+          <mat-form-field class="form-element">
+            <mat-label>Reduction</mat-label>
+            <input [readonly]="true" matInput [value]="packageItem?.reduction">
+          </mat-form-field>
+        <div  *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+          <mat-spinner></mat-spinner>
+        </div>
+      </div>
+      </div>
+    

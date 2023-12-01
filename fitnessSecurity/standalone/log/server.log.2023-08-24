@@ -1,0 +1,717 @@
+2023-08-24 21:55:53,290 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\kjbeli\Desktop\Fitness\fitnessSecurity\standalone\deployments
+2023-08-24 21:55:53,299 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-08-24 21:55:53,304 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-08-24 21:55:53,311 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-08-24 21:55:53,353 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-08-24 21:55:53,406 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-08-24 21:55:53,406 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-08-24 21:55:53,929 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.8.Final
+2023-08-24 21:55:53,995 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-08-24 21:55:53,995 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-08-24 21:55:54,326 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-08-24 21:55:54,328 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-08-24 21:55:54,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-08-24 21:55:54,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started work cache from keycloak container
+2023-08-24 21:55:54,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-08-24 21:55:54,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-08-24 21:55:54,341 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-08-24 21:55:54,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-08-24 21:55:54,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-08-24 21:55:54,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-08-24 21:55:54,376 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-08-24 21:55:54,384 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-08-24 21:55:54,384 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started users cache from keycloak container
+2023-08-24 21:55:54,384 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started keys cache from keycloak container
+2023-08-24 21:55:54,384 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started realms cache from keycloak container
+2023-08-24 21:55:54,523 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-08-24 21:55:54,804 INFO  [org.keycloak.services] (ServerService Thread Pool -- 56) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-08-24 21:55:55,164 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 56) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-08-24 21:55:55,404 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-08-24 21:55:55,410 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-08-24 21:55:55,415 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-08-24 21:55:55,417 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 56) Node name: desktop-hh4prdl, Site name: null
+2023-08-24 21:55:55,584 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 56) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:364)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:371)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1328)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:505)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:640)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:605)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	at org.jboss.as.connector@26.1.0.Final//org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory.getConnection(DefaultJpaConnectionProviderFactory.java:414)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lazyInit(LiquibaseDBLockProvider.java:65)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lambda$waitForLock$2(LiquibaseDBLockProvider.java:96)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.suspendJtaTransaction(KeycloakModelUtils.java:756)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.waitForLock(LiquibaseDBLockProvider.java:94)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication$1.run(KeycloakApplication.java:136)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:242)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.startup(KeycloakApplication.java:130)
+	at org.keycloak.keycloak-wildfly-extensions@18.0.0//org.keycloak.provider.wildfly.WildflyPlatform.onStartup(WildflyPlatform.java:36)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.<init>(KeycloakApplication.java:116)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.constructOutsideRequest(ConstructorInjectorImpl.java:225)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.construct(ConstructorInjectorImpl.java:209)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.Utils.createProviderInstance(Utils.java:102)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.ResteasyProviderFactoryImpl.createProviderInstance(ResteasyProviderFactoryImpl.java:1385)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.createApplication(ResteasyDeploymentImpl.java:418)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.initializeObjects(ResteasyDeploymentImpl.java:265)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.startInternal(ResteasyDeploymentImpl.java:137)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.start(ResteasyDeploymentImpl.java:121)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:144)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.doIt(RunAsLifecycleInterceptor.java:70)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:76)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:309)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:145)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:588)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:559)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:601)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:106)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: org.postgresql.util.PSQLException: FATAL: database "keycloak" does not exist
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql@42.6.0//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql@42.6.0//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql@42.6.0//org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql@42.6.0//org.postgresql.Driver.connect(Driver.java:297)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:335)
+	... 60 more
+
+2023-08-24 21:55:55,594 FATAL [org.keycloak.services] (ServerService Thread Pool -- 56) Error during startup: java.lang.RuntimeException: Failed to connect to database
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory.getConnection(DefaultJpaConnectionProviderFactory.java:420)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lazyInit(LiquibaseDBLockProvider.java:65)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lambda$waitForLock$2(LiquibaseDBLockProvider.java:96)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.suspendJtaTransaction(KeycloakModelUtils.java:756)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.waitForLock(LiquibaseDBLockProvider.java:94)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication$1.run(KeycloakApplication.java:136)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:242)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.startup(KeycloakApplication.java:130)
+	at org.keycloak.keycloak-wildfly-extensions@18.0.0//org.keycloak.provider.wildfly.WildflyPlatform.onStartup(WildflyPlatform.java:36)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.<init>(KeycloakApplication.java:116)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.constructOutsideRequest(ConstructorInjectorImpl.java:225)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.construct(ConstructorInjectorImpl.java:209)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.Utils.createProviderInstance(Utils.java:102)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.ResteasyProviderFactoryImpl.createProviderInstance(ResteasyProviderFactoryImpl.java:1385)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.createApplication(ResteasyDeploymentImpl.java:418)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.initializeObjects(ResteasyDeploymentImpl.java:265)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.startInternal(ResteasyDeploymentImpl.java:137)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.start(ResteasyDeploymentImpl.java:121)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:144)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.doIt(RunAsLifecycleInterceptor.java:70)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:76)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:309)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:145)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:588)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:559)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:601)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:106)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:159)
+	at org.jboss.as.connector@26.1.0.Final//org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory.getConnection(DefaultJpaConnectionProviderFactory.java:414)
+	... 48 more
+Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:690)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	... 50 more
+Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:364)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:371)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1328)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:505)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:640)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:605)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	... 53 more
+Caused by: org.postgresql.util.PSQLException: FATAL: database "keycloak" does not exist
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql@42.6.0//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql@42.6.0//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql@42.6.0//org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql@42.6.0//org.postgresql.Driver.connect(Driver.java:297)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:335)
+	... 60 more
+
+2023-08-24 21:55:55,602 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-08-24 21:55:55,620 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2023-08-24 21:55:55,625 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-08-24 21:55:55,628 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-08-24 21:55:55,631 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2023-08-24 21:55:55,635 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-08-24 21:55:55,919 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,921 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,922 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002205: Adding provider class org.keycloak.services.error.KcUnrecognizedPropertyExceptionHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,922 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,929 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,929 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,930 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,930 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,931 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,931 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,931 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 56) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:55:55,982 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 56) HV000001: Hibernate Validator 6.0.23.Final
+2023-08-24 21:55:55,998 INFO  [org.jboss.resteasy.plugins.validation.i18n] (ServerService Thread Pool -- 56) RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2023-08-24 21:55:56,104 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 56) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-08-24 21:55:56,106 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 56) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2023-08-24 21:55:56,111 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-08-24 21:55:56,114 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-08-24 21:55:56,116 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2023-08-24 21:55:56,124 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 519ms
+2023-08-24 21:55:56,128 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2023-08-24 21:55:56,129 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-08-24 21:55:56,130 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.2.16.Final stopping
+2023-08-24 21:55:56,131 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2023-08-24 21:55:56,131 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2023-08-24 21:55:56,131 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2023-08-24 21:55:56,132 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2023-08-24 21:55:56,132 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2023-08-24 21:55:56,132 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2023-08-24 21:55:56,133 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0003: Stopped keys cache from keycloak container
+2023-08-24 21:55:56,133 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0003: Stopped work cache from keycloak container
+2023-08-24 21:55:56,134 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0003: Stopped users cache from keycloak container
+2023-08-24 21:55:56,134 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2023-08-24 21:55:56,134 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2023-08-24 21:55:56,135 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0003: Stopped realms cache from keycloak container
+2023-08-24 21:55:56,139 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-08-24 21:55:56,147 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "metrics")]): java.lang.NullPointerException
+	at org.wildfly.extension.metrics@26.1.0.Final//org.wildfly.extension.metrics.MetricsSubsystemAdd$2.execute(MetricsSubsystemAdd.java:91)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:1045)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:777)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1427)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:559)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:572)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:534)
+	at org.jboss.as.server@18.1.0.Final//org.jboss.as.server.ServerService.boot(ServerService.java:470)
+	at org.jboss.as.server@18.1.0.Final//org.jboss.as.server.ServerService.boot(ServerService.java:414)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:473)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2023-08-24 21:55:56,150 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 27) WFLYCTL0403: Unexpected failure during execution of the following operation(s): []: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:55:56,150 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 24) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "jpa")],
+    "default-extended-persistence-inheritance" => "DEEP"
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:55:56,150 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 3) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "bean-validation")]
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:55:56,150 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 13) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "transactions")],
+    "node-identifier" => expression "${jboss.tx.node.id:1}",
+    "process-id-uuid" => true,
+    "socket-binding" => "txn-recovery-environment",
+    "status-socket-binding" => "txn-status-manager",
+    "statistics-enabled" => expression "${wildfly.transactions.statistics-enabled:${wildfly.statistics-enabled:false}}",
+    "object-store-path" => "tx-object-store",
+    "object-store-relative-to" => "jboss.server.data.dir"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "transactions"),
+        ("log-store" => "log-store")
+    ]
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:16,967 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-08-24 21:56:16,969 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\kjbeli\Desktop\Fitness\fitnessSecurity\standalone\deployments
+2023-08-24 21:56:16,971 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-08-24 21:56:16,976 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-08-24 21:56:16,989 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-08-24 21:56:17,007 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-08-24 21:56:17,012 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-08-24 21:56:17,066 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-08-24 21:56:17,123 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-08-24 21:56:17,123 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-08-24 21:56:17,644 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Triskaidekaphobia' 13.0.8.Final
+2023-08-24 21:56:17,725 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-08-24 21:56:17,725 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-08-24 21:56:18,088 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-08-24 21:56:18,091 INFO  [org.infinispan.CONFIG] (MSC service thread 1-2) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-08-24 21:56:18,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-08-24 21:56:18,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-08-24 21:56:18,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started work cache from keycloak container
+2023-08-24 21:56:18,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-08-24 21:56:18,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-08-24 21:56:18,111 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-08-24 21:56:18,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-08-24 21:56:18,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-08-24 21:56:18,147 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-08-24 21:56:18,150 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started users cache from keycloak container
+2023-08-24 21:56:18,150 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started realms cache from keycloak container
+2023-08-24 21:56:18,151 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-08-24 21:56:18,151 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started keys cache from keycloak container
+2023-08-24 21:56:18,259 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-08-24 21:56:18,563 INFO  [org.keycloak.services] (ServerService Thread Pool -- 53) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-08-24 21:56:18,714 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 53) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-08-24 21:56:19,272 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-08-24 21:56:19,279 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-08-24 21:56:19,287 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-08-24 21:56:19,288 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 53) Node name: desktop-hh4prdl, Site name: null
+2023-08-24 21:56:19,568 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 53) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:364)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:371)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1328)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:505)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:640)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:605)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	at org.jboss.as.connector@26.1.0.Final//org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory.getConnection(DefaultJpaConnectionProviderFactory.java:414)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lazyInit(LiquibaseDBLockProvider.java:65)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lambda$waitForLock$2(LiquibaseDBLockProvider.java:96)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.suspendJtaTransaction(KeycloakModelUtils.java:756)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.waitForLock(LiquibaseDBLockProvider.java:94)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication$1.run(KeycloakApplication.java:136)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:242)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.startup(KeycloakApplication.java:130)
+	at org.keycloak.keycloak-wildfly-extensions@18.0.0//org.keycloak.provider.wildfly.WildflyPlatform.onStartup(WildflyPlatform.java:36)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.<init>(KeycloakApplication.java:116)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.constructOutsideRequest(ConstructorInjectorImpl.java:225)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.construct(ConstructorInjectorImpl.java:209)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.Utils.createProviderInstance(Utils.java:102)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.ResteasyProviderFactoryImpl.createProviderInstance(ResteasyProviderFactoryImpl.java:1385)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.createApplication(ResteasyDeploymentImpl.java:418)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.initializeObjects(ResteasyDeploymentImpl.java:265)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.startInternal(ResteasyDeploymentImpl.java:137)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.start(ResteasyDeploymentImpl.java:121)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:144)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.doIt(RunAsLifecycleInterceptor.java:70)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:76)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:309)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:145)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:588)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:559)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:601)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:106)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: org.postgresql.util.PSQLException: FATAL: database "keycloak" does not exist
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql@42.6.0//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql@42.6.0//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql@42.6.0//org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql@42.6.0//org.postgresql.Driver.connect(Driver.java:297)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:335)
+	... 60 more
+
+2023-08-24 21:56:19,577 FATAL [org.keycloak.services] (ServerService Thread Pool -- 53) Error during startup: java.lang.RuntimeException: Failed to connect to database
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory.getConnection(DefaultJpaConnectionProviderFactory.java:420)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lazyInit(LiquibaseDBLockProvider.java:65)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.lambda$waitForLock$2(LiquibaseDBLockProvider.java:96)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.suspendJtaTransaction(KeycloakModelUtils.java:756)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.updater.liquibase.lock.LiquibaseDBLockProvider.waitForLock(LiquibaseDBLockProvider.java:94)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication$1.run(KeycloakApplication.java:136)
+	at org.keycloak.keycloak-server-spi-private@18.0.0//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:242)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.startup(KeycloakApplication.java:130)
+	at org.keycloak.keycloak-wildfly-extensions@18.0.0//org.keycloak.provider.wildfly.WildflyPlatform.onStartup(WildflyPlatform.java:36)
+	at org.keycloak.keycloak-services@18.0.0//org.keycloak.services.resources.KeycloakApplication.<init>(KeycloakApplication.java:116)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.constructOutsideRequest(ConstructorInjectorImpl.java:225)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ConstructorInjectorImpl.construct(ConstructorInjectorImpl.java:209)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.Utils.createProviderInstance(Utils.java:102)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.providerfactory.ResteasyProviderFactoryImpl.createProviderInstance(ResteasyProviderFactoryImpl.java:1385)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.createApplication(ResteasyDeploymentImpl.java:418)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.initializeObjects(ResteasyDeploymentImpl.java:265)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.startInternal(ResteasyDeploymentImpl.java:137)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.core.ResteasyDeploymentImpl.start(ResteasyDeploymentImpl.java:121)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.init(ServletContainerDispatcher.java:144)
+	at org.jboss.resteasy.resteasy-core@4.7.4.Final//org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.init(HttpServletDispatcher.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:117)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.doIt(RunAsLifecycleInterceptor.java:70)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@1.10.1.Final//org.wildfly.elytron.web.undertow.server.servlet.RunAsLifecycleInterceptor.init(RunAsLifecycleInterceptor.java:76)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.LifecyleInterceptorInvocation.proceed(LifecyleInterceptorInvocation.java:103)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet$DefaultInstanceStrategy.start(ManagedServlet.java:309)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ManagedServlet.createServlet(ManagedServlet.java:145)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:588)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl$2.call(DeploymentManagerImpl.java:559)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1544)
+	at io.undertow.servlet@2.2.16.Final//io.undertow.servlet.core.DeploymentManagerImpl.start(DeploymentManagerImpl.java:601)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:106)
+	at org.wildfly.extension.undertow@26.1.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:159)
+	at org.jboss.as.connector@26.1.0.Final//org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.keycloak.keycloak-model-jpa@18.0.0//org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory.getConnection(DefaultJpaConnectionProviderFactory.java:414)
+	... 48 more
+Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/KeycloakDS
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:690)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:440)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:789)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	... 50 more
+Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:364)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:371)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:287)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.createConnectionEventListener(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:1328)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.getConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:505)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:640)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:605)
+	at org.jboss.ironjacamar.impl@1.5.3.Final//org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:624)
+	... 53 more
+Caused by: org.postgresql.util.PSQLException: FATAL: database "keycloak" does not exist
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2825)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:175)
+	at org.postgresql@42.6.0//org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:313)
+	at org.postgresql@42.6.0//org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql@42.6.0//org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263)
+	at org.postgresql@42.6.0//org.postgresql.Driver.makeConnection(Driver.java:443)
+	at org.postgresql@42.6.0//org.postgresql.Driver.connect(Driver.java:297)
+	at org.jboss.ironjacamar.jdbcadapters@1.5.3.Final//org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:335)
+	... 60 more
+
+2023-08-24 21:56:19,584 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-08-24 21:56:19,600 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2023-08-24 21:56:19,603 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-08-24 21:56:19,605 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-08-24 21:56:19,607 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2023-08-24 21:56:19,610 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-08-24 21:56:19,957 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,959 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,959 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002205: Adding provider class org.keycloak.services.error.KcUnrecognizedPropertyExceptionHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,962 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,963 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,970 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,973 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,973 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,973 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,974 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:19,974 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-24 21:56:20,039 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 53) HV000001: Hibernate Validator 6.0.23.Final
+2023-08-24 21:56:20,058 INFO  [org.jboss.resteasy.plugins.validation.i18n] (ServerService Thread Pool -- 53) RESTEASY008550: Unable to find CDI supporting ValidatorFactory. Using default ValidatorFactory
+2023-08-24 21:56:20,205 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-08-24 21:56:20,207 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2023-08-24 21:56:20,212 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-08-24 21:56:20,216 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2023-08-24 21:56:20,217 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-08-24 21:56:20,224 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 637ms
+2023-08-24 21:56:20,229 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2023-08-24 21:56:20,231 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2023-08-24 21:56:20,232 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2023-08-24 21:56:20,232 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2023-08-24 21:56:20,233 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2023-08-24 21:56:20,232 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2023-08-24 21:56:20,234 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2023-08-24 21:56:20,232 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2023-08-24 21:56:20,233 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2023-08-24 21:56:20,233 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0003: Stopped users cache from keycloak container
+2023-08-24 21:56:20,235 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.2.16.Final stopping
+2023-08-24 21:56:20,235 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2023-08-24 21:56:20,234 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0003: Stopped work cache from keycloak container
+2023-08-24 21:56:20,234 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0003: Stopped keys cache from keycloak container
+2023-08-24 21:56:20,234 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0003: Stopped realms cache from keycloak container
+2023-08-24 21:56:20,243 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-08-24 21:56:20,252 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "metrics")]): java.lang.NullPointerException
+	at org.wildfly.extension.metrics@26.1.0.Final//org.wildfly.extension.metrics.MetricsSubsystemAdd$2.execute(MetricsSubsystemAdd.java:91)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:1045)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:777)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1427)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:559)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:572)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:534)
+	at org.jboss.as.server@18.1.0.Final//org.jboss.as.server.ServerService.boot(ServerService.java:470)
+	at org.jboss.as.server@18.1.0.Final//org.jboss.as.server.ServerService.boot(ServerService.java:414)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:473)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2023-08-24 21:56:20,256 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: Keycloak 18.0.0 (WildFly Core 18.1.0.Final) stopped in 669ms
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 27) WFLYCTL0403: Unexpected failure during execution of the following operation(s): []: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 48) WFLYCTL0403: Unexpected failure during execution of the following operation(s): []: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1348)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "metrics")],
+    "security-enabled" => false,
+    "exposed-subsystems" => ["*"],
+    "prefix" => expression "${wildfly.metrics.prefix:wildfly}"
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 21) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "health")],
+    "security-enabled" => false
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 26) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "weld")]
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1348)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 22) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "bean-validation")]
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 29) WFLYCTL0403: Unexpected failure during execution of the following operation(s): []: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1348)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+
+2023-08-24 21:56:20,256 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 14) WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "operation" => "add",
+    "address" => [("subsystem" => "mail")]
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "mail"),
+        ("mail-session" => "default")
+    ],
+    "jndi-name" => "java:jboss/mail/Default"
+}, {
+    "operation" => "add",
+    "address" => [
+        ("subsystem" => "mail"),
+        ("mail-session" => "default"),
+        ("server" => "smtp")
+    ],
+    "outbound-socket-binding-ref" => "mail-smtp"
+}]: java.lang.RuntimeException: WFLYCTL0195: Interrupted awaiting transaction commit or rollback
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTransactionControl.operationPrepared(ParallelBootOperationStepHandler.java:458)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ModelController$OperationTransactionControl.operationPrepared(ModelController.java:131)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:872)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:803)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:466)
+	at org.jboss.as.controller@18.1.0.Final//org.jboss.as.controller.ParallelBootOperationStepHandler$ParallelBootTask.run(ParallelBootOperationStepHandler.java:384)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+

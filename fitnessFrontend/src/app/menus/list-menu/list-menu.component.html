@@ -1,0 +1,38 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="mb-4">Gestion des Menus ({{menuList.length}}):</h2>
+      <button mat-raised-button color="primary" type="submit" class="button" (click)="addNew()"> Créer Nv. Menu
+      </button>
+    </div>
+    <p-table [paginator]="true" [loading]="spinner" [rows]="5"
+             [rowsPerPageOptions]="[5,10,15,20]" [value]="menuList"
+             responsiveLayout="scroll" *ngIf="!spinner" (onLazyLoad)="loadData($event)">
+      <ng-template pTemplate="header">
+        <tr>
+          <th>Liblle</th>
+          <th class="action-header">Action</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-repas>
+        <tr>
+          <td>{{repas.libelle}}</td>
+          <td class="d-flex justify-content-around">
+            <button mat-button mat-stroked-button class="mat-warn" (click)="updateRepas(repas)" >Modifier</button>
+            <!--   <button mat-button mat-stroked-button class="mat-warn" (click)="showRepas(repas)" >Voir</button>-->
+            <button mat-button mat-stroked-button class="mat-warn" (click)="deleteRepas(repas.idmenus)" >Supprimer</button>
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="emptymessage" let-columns>
+        <tr>
+          <td class="border-0">
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+</div>
+<div  *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+  <mat-spinner></mat-spinner>
+</div>

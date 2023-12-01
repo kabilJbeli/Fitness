@@ -1,0 +1,51 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center">
+    <h2 class="mb-4">Gestion des utilisateurs ({{Users.length}}):</h2>
+    <button mat-raised-button color="primary" type="submit" class="button" (click)="addNew()"> Créer Nv. utilisateur
+    </button>
+    </div>
+    <p-table [paginator]="true" [loading]="spinner" [rows]="5"
+             [rowsPerPageOptions]="[5,10,15,20]" [value]="Users"
+             responsiveLayout="scroll" *ngIf="!spinner">
+      <ng-template pTemplate="header">
+        <tr>
+          <th>Prénom</th>
+          <th>Nom</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th class="action-header">Action</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-user>
+        <tr>
+          <td>{{user.name}}</td>
+          <td>{{user.surname}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.role}}</td>
+          <td class="d-flex justify-content-around">
+            <button  mat-button mat-stroked-button class="mat-warn" (click)="enabledisable(user.keycloakkey)">
+              <ng-container *ngIf="user?.enabled" >Disable </ng-container>
+              <ng-container *ngIf="!user?.enabled">Enable </ng-container>
+            </button>
+            <button *ngIf="user.role != 'Client'" mat-button mat-stroked-button class="mat-warn" (click)="updateUser(user.keycloakkey)" >Modfier</button>
+            <button *ngIf="user.role == 'Client'" mat-button mat-stroked-button class="mat-warn" (click)="consultpackage(user.keycloakkey)" >Packages</button>
+            <button mat-button mat-stroked-button class="mat-warn" (click)="deleteUser(user.keycloakkey)" >Supprimer</button>
+            <button mat-button mat-stroked-button class="mat-warn" (click)="consulterUser(user.keycloakkey)" >Consulter</button>
+
+          </td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="emptymessage" let-columns>
+        <tr>
+          <td class="border-0">
+           
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+  </div>
+  <div  *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+    <mat-spinner></mat-spinner>
+  </div>

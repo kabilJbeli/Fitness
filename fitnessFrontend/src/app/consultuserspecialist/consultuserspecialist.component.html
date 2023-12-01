@@ -1,0 +1,92 @@
+
+<p-accordion [activeIndex]="0">
+    <p-accordionTab header="Information:">
+          <div>
+            <span >Nom:</span>
+            <span >{{currentuser?.surname}}</span>
+        </div>
+        <div>
+          <span >Prénom:</span>
+          <span >{{currentuser?.name}}</span>
+        </div>
+        <div>
+          <span >Email:</span>
+          <span >{{currentuser?.email}}</span>
+        </div>
+        <div>
+          <span >Phone:</span>
+          <span >{{currentuser?.phone}}</span>
+        </div>
+        <div *ngIf="currentuser?.role != 'Client'">
+          <span >Date de naissance:</span>
+          <span >{{currentuser?.birthdate}}</span>
+        </div>
+        <div>
+          <span >Role: </span>
+          <span >{{currentuser?.role}}</span>
+        </div>
+    </p-accordionTab>
+      <p-accordionTab *ngIf="currentuser?.role == 'Client'"  header="Dossier Medicale:" [selected]="false">
+              <div>
+                <span >Genre:</span>
+                <span >{{getGender(currentuser?.genre)}}</span>
+              </div>
+              <div>
+                <span >Poids:</span>
+                <span >{{currentuser?.poid}}</span>
+              </div>
+              <div>
+                <span >Age:</span>
+                <span >{{currentuser?.age}}</span>
+              </div>
+              <div>
+                <span >Taille:</span>
+                <span >{{currentuser?.taille}}</span>
+              </div>
+              <div>
+                <span >Nombre de jour d'entrainement:</span>
+                <span >{{currentuser?.daysworkout}}</span>
+              </div>
+              <div>
+                <span >Place d'entrainement:</span>
+                <span >{{getworjout(currentuser?.workouthome)}}</span>
+              </div>
+              <div>
+                <span >Personne allergique:</span>
+                <span >{{getboolean(currentuser?.allergie)}}</span>
+              </div>
+              <div *ngIf="currentuser?.allergie">
+                <span >Description des allergies:</span>
+                <span ><p>{{currentuser?.allergiedescription}}</p></span>
+              </div>
+              <div>
+                <span >Personne malade:</span>
+                <span >{{getboolean(currentuser?.sick)}}</span>
+              </div>
+              <div *ngIf="currentuser?.sick">
+                <span >Description des maladies:</span>
+                <span ><p>{{currentuser?.sickdescription}}</p></span>
+              </div>
+              <div>
+                <span >Préference culinaire:</span>
+                <span ><p>{{currentuser?.foodrequirements}}</p></span>
+              </div>
+
+
+        </p-accordionTab>
+
+    <p-accordionTab *ngIf="display" header="Photo">
+      <div class="w-100 image-wrapper">
+      <div class="gallery" *ngFor="let image of _albums; let i=index">
+        <div class="avatar-container">
+          <a href="{{image.src}}" >
+          <img class="image-container" src="{{image.src}}" (click)="open(i)" />
+          </a>
+      </div>
+      </div>
+      </div>
+  </p-accordionTab>
+</p-accordion>
+<div *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+  <mat-spinner></mat-spinner>
+</div>

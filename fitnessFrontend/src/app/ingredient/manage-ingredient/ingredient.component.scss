@@ -1,0 +1,7 @@
+.mat-mdc-form-field {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    .mat-mdc-form-field-infix{
+        width: 300px;
+    }
+}

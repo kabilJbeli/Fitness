@@ -1,0 +1,89 @@
+<div class="container  mt-4">
+  <div class="row">
+    <h2 class="mb-4">Affectation:</h2>
+    <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form" *ngIf="!spinner">
+      <div formArrayName="affectationrequests" class="p-0">
+        <table class="table table-hover">
+          <tbody>
+          <tr *ngFor="let row of affectationrequests.controls; let i = index" [formGroupName]="i">
+            <div style="display: flex;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            justify-content: space-between;">
+              <td>
+                <mat-form-field class="form-element">
+                  <mat-label>Description</mat-label>
+                  <input matInput formControlName="affectdescription">
+                </mat-form-field>
+              </td>
+              <td>
+                <mat-form-field>
+                  <mat-label>Période</mat-label>
+                  <mat-date-range-input [rangePicker]="picker">
+                    <input matStartDate placeholder="Date de début" formControlName="startdate">
+                    <input matEndDate placeholder="Date de fin" formControlName="enddate">
+                  </mat-date-range-input>
+                  <mat-hint>DD/MM/YYYY – DD/MM/YYYY</mat-hint>
+                  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                  <mat-date-range-picker #picker></mat-date-range-picker>
+                </mat-form-field>
+              </td>
+              <td>
+                <div formArrayName="exerciceSportifs" class="p-0">
+                  <table class="table table-hover">
+                    <tbody>
+                    <tr *ngFor="let row1 of row.value.exerciceSportifs.controls; let j = index"
+                        [formGroupName]="row1">
+                      <div
+                        style="display: flex; align-items: center;width: 100%;height: auto;justify-content: space-between;">
+                        <td>
+                          <mat-form-field>
+                            <mat-label>Exercice sportif</mat-label>
+                            <mat-select formControlName="exerciceSportif"
+                            >
+                              <mat-option *ngFor="let exercice of exercices"
+                                          [value]="exercice">{{exercice?.description}}</mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </td>
+                        <td>
+                          <input type="number" matInput formControlName="numberactperserie">
+                        </td>
+                        <td>
+                          <input type="number" matInput formControlName="numberserie">
+                        </td>
+                      </div>
+                    </tr>
+                    </tbody>
+                  </table>
+                  <div class="text-center">
+                    <button class="btn btn-primary" (click)="addNewRowexer(i)" type="button">Associer un exercice
+                      sportif
+                    </button>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <button mat-button type="button" (click)="removeAffectation(i)">
+                  <mat-icon>remove_circle_outline</mat-icon>
+                </button>
+              </td>
+            </div>
+          </tr>
+          </tbody>
+        </table>
+        <div class="text-center">
+          <button class="btn btn-primary" (click)="addNewRow()" type="button">Affecté un nouveau programme</button>
+        </div>
+      </div>
+
+      <button mat-raised-button color="primary" type="submit"
+              class="w-100 d-flex justify-content-center align-items-center mt-5" [disabled]="!formGroup.valid">Valider
+      </button>
+    </form>
+    <div *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+      <mat-spinner></mat-spinner>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+<div class="container  mt-4">
+  <div class="row">
+    <h2 class="mb-4">Utilisateur:</h2>
+    <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form" *ngIf="!spinner">
+      <mat-form-field class="form-element">
+        <mat-label>Role</mat-label>
+        <mat-select formControlName="role">
+          <mat-option *ngFor="let role of roles" [value]="role">{{role}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div *ngIf="f['role'].value == 'Coach' || f['role'].value == 'Nutritionist'">
+
+        <div class="avatar-container">
+          <div class="image-container" 
+          [ngStyle]="{backgroundImage: 'url(' + selectedFile + ')'}">
+          </div>
+      
+          <label for="avatar-input-file">
+              <div class="icon-wrapper">
+                  <input type="file" id="avatar-input-file" accept="image/*" (change)="onFileChanged($event)" />
+                  <mat-icon class="icon" fontIcon="edit"></mat-icon>
+              </div>
+          </label>
+      </div> 
+          </div>
+      
+      <mat-form-field class="form-element">
+        <mat-label>Prénom</mat-label>
+        <input matInput formControlName="name">
+      </mat-form-field>
+      <mat-form-field class="form-element">
+        <mat-label>Nom</mat-label>
+        <input matInput formControlName="surname">
+      </mat-form-field>
+      <mat-form-field class="form-element">
+        <mat-label>Email</mat-label>
+        <input matInput type="email" formControlName="email">
+      </mat-form-field>
+      <mat-form-field class="form-element">
+        <mat-label>Téléphone</mat-label>
+        <input matInput type="number" formControlName="phone">
+      </mat-form-field>
+      <mat-form-field class="form-element">
+        <mat-label>Date naissance</mat-label>
+        <input [disabled]="true" matInput [matDatepicker]="picker"  readonly formControlName="birthdate">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <p-password formControlName="password" class="w-40 d-flex justify-content-center align-items-center mt-5"
+                  placeholder="Nouveau mot de passe"
+                  [toggleMask]="true"
+                  [feedback]="true">
+        <ng-template pTemplate="header">
+          <h6>Introduit mot de passe</h6>
+        </ng-template>
+        <ng-template pTemplate="footer">
+          <p-divider></p-divider>
+          <p class="mt">Suggestions</p>
+          <ul class="pl-1" style="line-height: 1.5">
+            <li>Minimum un minuscule</li>
+            <li>Minimum un majuscule</li>
+            <li>Minimum un numéro</li>
+            <li>Minimum un caractère spécial</li>
+            <li>8 caractères</li>
+          </ul>
+        </ng-template>
+      </p-password>
+
+      <button mat-raised-button color="primary" type="submit"
+              class="w-100 d-flex justify-content-center align-items-center mt-5" [disabled]="!formGroup.valid">Valider
+      </button>
+    </form>
+    <div *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+      <mat-spinner></mat-spinner>
+    </div>
+  </div>
+</div>

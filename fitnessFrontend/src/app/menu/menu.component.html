@@ -1,0 +1,20 @@
+<p-sidebar [dismissible]="true" #sideBar [(visible)]="display" position="left">
+  <ng-template pTemplate="header">
+    <h5 style="color:#000; text-align:center;" class="w-100">Fit'You</h5></ng-template>
+  <p-panelMenu [transitionOptions]="'250ms'" [model]="items" [multiple]="false"  ></p-panelMenu>
+</p-sidebar>
+
+<p-menubar class="menubar-custom"  (click)="activeMenu($event)">
+  <ng-template pTemplate="start">
+    <p-button class="menuButton" type="button" (click)="display = true" icon="pi pi-bars"></p-button>
+  </ng-template>
+  <ng-template>
+    <img src="assets/images/logo.png" style="width:100px"/>
+  </ng-template>
+
+
+  <ng-template pTemplate="end">
+    <p-menubar  [model]="menuBarItems" (click)="activeMenu($event); ">
+    </p-menubar>
+  </ng-template>
+</p-menubar>

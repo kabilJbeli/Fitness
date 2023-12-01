@@ -1,0 +1,72 @@
+<div *ngIf="mode == 'CREATE' || mode == 'UPDATE'" class="container  mt-4">
+    <div class="row">
+      <h2 class="mb-4">Exercice Sportif:</h2>
+      <form [formGroup]="formGroup" (ngSubmit)="onSubmit(formGroup.value)" class="form" *ngIf="!spinner">
+        <div style="display: flex; display: block;">
+          <span>
+        <div class="form-check form-switch">
+          <input mdbCheckbox class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" formControlName="homeexercice"/>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Exercice à la maison</label>
+        </div>
+        <div *ngIf="mode == 'UPDATE'" class="form-check form-switch">
+          <input mdbCheckbox class="form-check-input" type="checkbox" id="flexSwitch" (change)="checker()"/>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Modifié la video associé</label>
+        </div>
+        <video *ngIf="mode =='UPDATE'" width="320" height="240" [vgMedia]="$any(media)" autoplay="true"  #media id="singleVideo" preload="auto" controls >
+          <source src={{source}} type="video/mp4">
+      </video>
+        </span>
+    </div>
+        <mat-form-field class="form-element">
+          <mat-label>Description</mat-label>
+          <input matInput formControlName="description">
+        </mat-form-field>
+        <mat-form-field class="form-element">
+          <mat-label>Niveau</mat-label>
+          <mat-select formControlName="niveau">
+            <mat-option *ngFor="let niveau of niveaux" [value]="niveau">{{niveau}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field class="form-element">
+          <mat-label>Type</mat-label>
+          <mat-select formControlName="type">
+            <mat-option *ngFor="let type of types" [value]="type">{{type}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+            <label *ngIf="display" class="btn btn-default p-0">
+              <input type="file" (change)="selectFile($event)" formControlName="video" accept="video/mp4"/>
+            </label>
+        
+        <div *ngIf="currentFile && display" class="progress my-3">
+          <div
+            class="progress-bar progress-bar-info progress-bar-striped"
+            role="progressbar"
+            attr.aria-valuenow="{{ progress }}"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            [ngStyle]="{ width: progress + '%' }"
+          >
+            {{ progress }}%
+          </div>
+        </div>
+
+                
+          <button mat-raised-button color="primary" type="submit" 
+          class="w-100 d-flex justify-content-center align-items-center mt-5" 
+          [disabled]="!formGroup.valid">Valider</button>
+      </form>
+    </div>
+    </div>
+    <div *ngIf="mode == 'READ'" class="container  mt-4">
+      <div class="row">
+        <h2 class="mb-4">Exercice Sportif:</h2>
+          <mat-form-field class="form-element">
+            <mat-label>description</mat-label>
+            <input [readonly]="true" matInput [value]="exerciceSportif?.description">
+          </mat-form-field>
+        <div  *ngIf="spinner" class="w-100 d-flex justify-content-center align-items-center mt-5">
+          <mat-spinner></mat-spinner>
+        </div>
+      </div>
+      </div>
+    

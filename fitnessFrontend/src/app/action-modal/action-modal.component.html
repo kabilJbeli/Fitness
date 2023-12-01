@@ -1,0 +1,7 @@
+<h1 mat-dialog-title class="text-center" *ngIf="data.action==='erreur'">Une erreur s'est produite {{data.name}}</h1>
+<h1 mat-dialog-title class="text-center" *ngIf="data.action==='confirm'">Opération effectuée avec succès</h1>
+<div mat-dialog-content>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Compris!</button>
+</div>

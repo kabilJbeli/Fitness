@@ -1,0 +1,77 @@
+::ng-deep .p-datatable-table{
+    td, th {
+      border: none !important;
+      padding: 5px 12px !important;
+    }
+    tr:nth-child(even){background-color: #f2f2f2 !important;}
+    tr:hover {background-color: #ddd !important;}
+    th {
+      padding-top: 12px !important;
+      padding-bottom: 12px !important;
+      text-align: left !important;
+      background-color: #c92830 !important;
+      color: white !important;
+      font-weight: normal !important;
+      font-size: 14px !important;
+      &.action-header{
+        width: 400px !important;
+        text-align:center !important;
+      }
+    }
+
+  }
+  ::ng-deep button.mat-primary {
+    background: #c92830 !important;
+    color:#ffffff !important;
+    &:disabled{
+      opacity: .5;
+    }
+  }
+
+
+  ::ng-deep .container {
+    padding: 10px;
+    ::ng-deep .form {
+      width: 100%;
+      .mat-mdc-form-field{
+        width: 50%;
+
+        padding-right:1rem !important;
+        &.updatemenu{
+          width: 100% !important;
+        }
+        &.form-element {
+          padding: 5px 0px 25px 2px;
+          .mat-form-field-wrapper {
+            padding-bottom: 1.6em !important;
+          }
+          .mat-input-element {
+            &:read-only{
+              opacity:0.3;
+              &:hover{
+                cursor: default;
+              }
+            }
+          }
+        }
+      }
+      .mat-checkbox-indeterminate.mat-accent, .mat-checkbox-checked.mat-accent{
+        .mat-checkbox-background, .mat-checkbox-background {
+          background-color: #c92830;
+        }
+      }
+    }
+  }
+
+
+
+  ::ng-deep mat-datetimepicker-content .mat-datetimepicker-calendar-header {
+    color: #000 !important;
+  }
+::ng-deep .animation.fadeIn.lightbox {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

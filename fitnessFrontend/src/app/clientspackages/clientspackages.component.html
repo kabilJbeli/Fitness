@@ -1,0 +1,36 @@
+<p-accordion [activeIndex]="0" *ngFor="let pack of listpackage">
+    <p-accordionTab header="Package {{pack?.iduserpackage.packagesclient.libelle}} acheté par {{pack?.iduserpackage.clientpackage.name}} {{pack?.iduserpackage.clientpackage.surname}} le {{pack?.iduserpackage.buyDate}}">
+        <div>
+            <span >Date d'achat:</span>
+            <span >{{pack?.iduserpackage.buyDate}}</span>
+          </div>
+        <div>
+          <span >Pakcage courant:</span>
+          <span >{{pack?.currentpackage}}</span>
+        </div>
+        <div>
+          <span >Date de debut:</span>
+          <span >{{pack?.startdate}}</span>
+        </div>
+        <div>
+          <span >Date de fin:</span>
+          <span >{{pack?.enddate}}</span>
+        </div>
+        <div>
+          <span >Libelle du package:</span>
+          <span >{{pack?.iduserpackage.packagesclient.libelle}}</span>
+        </div>
+        <div>
+          <span >Validité:</span>
+          <span >{{pack?.iduserpackage.packagesclient.validity}} {{getfrequency(pack?.iduserpackage.packagesclient.unitetime)}}</span>
+        </div>
+        <div>
+            <span >Coach choisie:</span>
+            <span >{{pack?.choosencoach?.name}} {{pack?.choosencoach?.surname}}</span>
+          </div>
+          <div>
+            <span >Nutritionist choisie:</span>
+            <span >{{pack?.choosennutro?.name}} {{pack?.choosennutro?.surname}}</span>
+          </div>
+    </p-accordionTab>
+</p-accordion>
